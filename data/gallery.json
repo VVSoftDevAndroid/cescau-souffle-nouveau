@@ -1,0 +1,66 @@
+{
+  "title": "Notre Village",
+  "subtitle": "La beauté de Cescau en images",
+  "images": [
+    {
+      "id": "1",
+      "src": "images/village/placeholder-1.jpg",
+      "caption": "Vue panoramique sur les Pyrénées",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "src": "images/village/placeholder-2.jpg",
+      "caption": "L'église au cœur du village",
+      "featured": false
+    },
+    {
+      "id": "3",
+      "src": "images/village/placeholder-3.jpg",
+      "caption": "Coucher de soleil sur la vallée",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "src": "images/village/placeholder-4.jpg",
+      "caption": "Les ruelles fleuries",
+      "featured": false
+    },
+    {
+      "id": "5",
+      "src": "images/village/placeholder-5.jpg",
+      "caption": "Paysage d'automne",
+      "featured": false
+    },
+    {
+      "id": "6",
+      "src": "images/village/placeholder-6.jpg",
+      "caption": "La fontaine du village",
+      "featured": false
+    },
+    {
+      "id": "7",
+      "src": "images/village/placeholder-7.jpg",
+      "caption": "Vue depuis le chemin de randonnée",
+      "featured": false
+    },
+    {
+      "id": "8",
+      "src": "images/village/placeholder-8.jpg",
+      "caption": "Le marché du dimanche",
+      "featured": false
+    },
+    {
+      "id": "9",
+      "src": "images/village/placeholder-9.jpg",
+      "caption": "Neige sur les sommets",
+      "featured": true
+    },
+    {
+      "id": "10",
+      "src": "images/village/placeholder-10.jpg",
+      "caption": "Printemps en Ariège",
+      "featured": false
+    }
+  ]
+}

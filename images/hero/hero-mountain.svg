@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A7C9B"/>
+      <stop offset="60%" style="stop-color:#6A9CB8"/>
+      <stop offset="100%" style="stop-color:#F5F2EB"/>
+    </linearGradient>
+    <linearGradient id="mountain1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3D29"/>
+      <stop offset="100%" style="stop-color:#2D5A3D"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D5A3D"/>
+      <stop offset="100%" style="stop-color:#3D7A52"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  
+  <!-- Distant mountains -->
+  <polygon points="0,600 300,350 600,500 900,300 1200,450 1500,320 1920,550 1920,1080 0,1080" fill="#3A6278" opacity="0.5"/>
+  
+  <!-- Middle mountains -->
+  <polygon points="0,650 400,400 700,550 1000,380 1400,500 1920,420 1920,1080 0,1080" fill="url(#mountain1)"/>
+  
+  <!-- Foreground hills -->
+  <polygon points="0,750 200,650 500,720 800,600 1100,700 1400,620 1700,680 1920,600 1920,1080 0,1080" fill="url(#mountain2)"/>
+  
+  <!-- Valley/village area -->
+  <ellipse cx="960" cy="900" rx="600" ry="200" fill="#3D7A52" opacity="0.6"/>
+  
+  <!-- Simple church silhouette -->
+  <rect x="940" y="780" width="40" height="60" fill="#2C2C2C" opacity="0.3"/>
+  <polygon points="960,750 930,780 990,780" fill="#2C2C2C" opacity="0.3"/>
+  
+  <!-- Sun glow -->
+  <circle cx="1600" cy="200" r="100" fill="#C9A227" opacity="0.3"/>
+  <circle cx="1600" cy="200" r="60" fill="#F5F2EB" opacity="0.5"/>
+</svg>

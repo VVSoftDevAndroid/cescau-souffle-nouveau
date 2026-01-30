@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez la beauté du village de Cescau en Ariège à travers notre galerie photo - Paysages pyrénéens, patrimoine et vie locale.">
+  
+  <title>Notre Village - Cescau, un souffle nouveau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Cescau<span>,</span> un souffle nouveau</a>
+      
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="equipe.html" class="nav-link">Équipe</a></li>
+          <li><a href="village.html" class="nav-link">Village</a></li>
+          <li><a href="projets.html" class="nav-link">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="transition: opacity 0.15s ease;">
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Notre Village</h1>
+      <p class="reveal">La beauté de Cescau en images</p>
+    </div>
+  </section>
+
+  <!-- Village Description -->
+  <section class="section" style="background-color: var(--text-light);">
+    <div class="container text-center">
+      <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+        <h2>Cescau, perle de l'Ariège</h2>
+        <p style="font-size: 1.125rem; color: var(--text-muted);">
+          Situé à quelques kilomètres de Saint-Girons, notre village offre un cadre de vie 
+          exceptionnel entre vallées verdoyantes et sommets pyrénéens. Ici, la nature 
+          s'exprime dans toute sa splendeur au fil des saisons, offrant à ses habitants 
+          et visiteurs des paysages à couper le souffle.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section">
+    <div class="container">
+      <div class="gallery-grid" id="gallery-container">
+        <!-- Gallery images will be populated by JavaScript from data/gallery.json -->
+        <p class="text-center text-muted">Chargement de la galerie...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Info -->
+  <section class="section" style="background-color: var(--text-light);">
+    <div class="container">
+      <div class="intro-content">
+        <div class="intro-text reveal">
+          <h2>Situation géographique</h2>
+          <p>
+            <strong>Cescau (09800)</strong> est une commune de l'Ariège, située dans la 
+            région Occitanie. Le village se trouve dans le Couserans, une région naturelle 
+            des Pyrénées centrales réputée pour la beauté de ses paysages.
+          </p>
+          <p>
+            À proximité de Saint-Girons et de la vallée du Couserans, Cescau bénéficie 
+            d'un accès facile aux services tout en conservant le charme et la tranquillité 
+            d'un village de montagne authentique.
+          </p>
+        </div>
+        <div class="intro-image reveal">
+          <img src="images/village/map-placeholder.jpg" alt="Carte de situation de Cescau"
+               onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 400%22%3E%3Crect fill=%22%232D5A3D%22 width=%22800%22 height=%22400%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22sans-serif%22 font-size=%2224%22 x=%22400%22 y=%22180%22 text-anchor=%22middle%22%3ECescau (09800)%3C/text%3E%3Ctext fill=%22%23C9A227%22 font-family=%22sans-serif%22 font-size=%2218%22 x=%22400%22 y=%22220%22 text-anchor=%22middle%22%3EAriège, Occitanie%3C/text%3E%3C/svg%3E'">
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Cescau<span>,</span> un souffle nouveau</div>
+        <p class="footer-contact">
+          Contactez-nous : <a href="mailto:contact@cescau-souffle-nouveau.fr">contact@cescau-souffle-nouveau.fr</a>
+        </p>
+        <p class="footer-bottom">© 2026 Cescau, un souffle nouveau. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/audio-player.js"></script>
+</body>
+</html>

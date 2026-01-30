@@ -1,0 +1,48 @@
+{
+  "title": "Notre Équipe",
+  "subtitle": "Les femmes et les hommes qui portent ce souffle nouveau",
+  "members": [
+    {
+      "id": "1",
+      "name": "Marie Dupont",
+      "role": "Tête de liste",
+      "bio": "Habitante de Cescau depuis 25 ans, Marie est passionnée par le développement durable de notre village tout en préservant son authenticité.",
+      "image": "images/team/placeholder-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jean-Pierre Martin",
+      "role": "Adjoint",
+      "bio": "Agriculteur et ancien conseiller municipal, Jean-Pierre apporte son expérience du terrain et sa connaissance profonde de la vie rurale.",
+      "image": "images/team/placeholder-2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Sophie Bernard",
+      "role": "Conseillère",
+      "bio": "Enseignante à la retraite, Sophie milite pour une école vivante et des activités culturelles accessibles à tous.",
+      "image": "images/team/placeholder-3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Pierre Lefebvre",
+      "role": "Conseiller",
+      "bio": "Artisan menuisier installé depuis 15 ans, Pierre défend l'économie locale et l'emploi dans nos campagnes.",
+      "image": "images/team/placeholder-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Isabelle Moreau",
+      "role": "Conseillère",
+      "bio": "Infirmière de profession, Isabelle est engagée pour le maintien des services de santé en milieu rural.",
+      "image": "images/team/placeholder-5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "François Petit",
+      "role": "Conseiller",
+      "bio": "Jeune agriculteur bio, François représente la nouvelle génération engagée pour un avenir durable.",
+      "image": "images/team/placeholder-6.jpg"
+    }
+  ]
+}

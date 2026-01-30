@@ -1,0 +1,50 @@
+{
+  "title": "Nos Projets",
+  "subtitle": "Pour Cescau, aujourd'hui et demain",
+  "current": [
+    {
+      "id": "1",
+      "title": "Rénovation de la salle des fêtes",
+      "description": "Modernisation des équipements et amélioration de l'accessibilité pour accueillir tous les habitants dans les meilleures conditions.",
+      "status": "En cours",
+      "icon": "🏛️"
+    },
+    {
+      "id": "2",
+      "title": "Entretien des chemins de randonnée",
+      "description": "Balisage et maintenance des sentiers pour promouvoir le tourisme vert et permettre aux habitants de profiter de notre nature exceptionnelle.",
+      "status": "En cours",
+      "icon": "🥾"
+    },
+    {
+      "id": "3",
+      "title": "Fleurissement du village",
+      "description": "Embellissement des espaces publics avec des plantations locales et résistantes, pour un village accueillant et coloré.",
+      "status": "En cours",
+      "icon": "🌸"
+    }
+  ],
+  "upcoming": [
+    {
+      "id": "4",
+      "title": "Installation de bornes de recharge",
+      "description": "Deux bornes de recharge pour véhicules électriques sur la place du village, pour accompagner la transition énergétique.",
+      "status": "À venir",
+      "icon": "⚡"
+    },
+    {
+      "id": "5",
+      "title": "Création d'un jardin partagé",
+      "description": "Un espace de jardinage collectif pour renforcer les liens entre générations et favoriser une alimentation locale.",
+      "status": "À venir",
+      "icon": "🌱"
+    },
+    {
+      "id": "6",
+      "title": "Réhabilitation du lavoir",
+      "description": "Restauration de notre patrimoine historique pour en faire un lieu de mémoire et de rencontres.",
+      "status": "À venir",
+      "icon": "💧"
+    }
+  ]
+}

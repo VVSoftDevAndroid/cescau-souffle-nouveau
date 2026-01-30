@@ -1,0 +1,24 @@
+{
+  "siteName": "Cescau, un souffle nouveau",
+  "tagline": "Pour notre village, ensemble",
+  "description": "Liste électorale pour les élections municipales de Cescau (09800), Ariège, Occitanie",
+  "location": {
+    "village": "Cescau",
+    "postalCode": "09800",
+    "department": "Ariège",
+    "region": "Occitanie"
+  },
+  "contact": {
+    "email": "contact@cescau-souffle-nouveau.fr"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": ""
+  },
+  "audio": {
+    "file": "audio/musique.mp3",
+    "title": "Cescau, un souffle nouveau",
+    "artist": "Hymne de campagne"
+  },
+  "copyright": "© 2026 Cescau, un souffle nouveau. Tous droits réservés."
+}

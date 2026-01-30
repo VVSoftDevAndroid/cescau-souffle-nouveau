@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les projets de la liste Cescau, un souffle nouveau - Nos actions en cours et nos initiatives pour l'avenir du village.">
+  
+  <title>Nos Projets - Cescau, un souffle nouveau</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Cescau<span>,</span> un souffle nouveau</a>
+      
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="equipe.html" class="nav-link">Équipe</a></li>
+          <li><a href="village.html" class="nav-link">Village</a></li>
+          <li><a href="projets.html" class="nav-link">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="transition: opacity 0.15s ease;">
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Nos Projets</h1>
+      <p class="reveal">Pour Cescau, aujourd'hui et demain</p>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="section" style="background-color: var(--text-light);">
+    <div class="container text-center">
+      <div class="reveal" style="max-width: 800px; margin: 0 auto;">
+        <h2>Notre engagement</h2>
+        <p style="font-size: 1.125rem; color: var(--text-muted);">
+          Nous croyons en des projets concrets, réalistes et utiles à tous. Chaque initiative 
+          vise à améliorer le quotidien des habitants tout en préparant l'avenir de notre village. 
+          Voici les actions que nous menons et celles que nous souhaitons porter.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Projects -->
+  <div class="projects-section">
+    <div class="container">
+      <h3 class="reveal"><span class="icon">🔨</span> Projets en cours</h3>
+      <div class="grid grid-3" id="projects-current">
+        <!-- Current projects will be populated by JavaScript from data/projects.json -->
+        <p class="text-center text-muted">Chargement des projets...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Upcoming Projects -->
+  <div class="projects-section">
+    <div class="container">
+      <h3 class="reveal"><span class="icon">🌟</span> Projets à venir</h3>
+      <div class="grid grid-3" id="projects-upcoming">
+        <!-- Upcoming projects will be populated by JavaScript from data/projects.json -->
+        <p class="text-center text-muted">Chargement des projets...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Values Section -->
+  <section class="section" style="background-color: var(--text-light);">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Nos valeurs</h2>
+        <p>Les principes qui guident chacune de nos actions</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="card-content text-center">
+            <span style="font-size: 3rem; display: block; margin-bottom: var(--space-md);">🤝</span>
+            <h4 class="card-title">Solidarité</h4>
+            <p class="card-text">Un village où personne n'est laissé de côté, où l'entraide entre voisins est une valeur cardinale.</p>
+          </div>
+        </div>
+        
+        <div class="card reveal">
+          <div class="card-content text-center">
+            <span style="font-size: 3rem; display: block; margin-bottom: var(--space-md);">🌿</span>
+            <h4 class="card-title">Durabilité</h4>
+            <p class="card-text">Des choix responsables pour préserver notre environnement et transmettre un village sain aux générations futures.</p>
+          </div>
+        </div>
+        
+        <div class="card reveal">
+          <div class="card-content text-center">
+            <span style="font-size: 3rem; display: block; margin-bottom: var(--space-md);">💬</span>
+            <h4 class="card-title">Transparence</h4>
+            <p class="card-text">Une gestion claire et ouverte, où chaque habitant peut s'informer et participer aux décisions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section">
+    <div class="container text-center">
+      <div class="reveal">
+        <h2>Vous avez une idée ?</h2>
+        <p style="max-width: 600px; margin: 0 auto var(--space-xl);">
+          Nous sommes à l'écoute de toutes les propositions pour améliorer 
+          la vie à Cescau. Partagez vos idées avec nous !
+        </p>
+        <a href="mailto:contact@cescau-souffle-nouveau.fr" class="btn btn-primary">Proposer un projet</a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Cescau<span>,</span> un souffle nouveau</div>
+        <p class="footer-contact">
+          Contactez-nous : <a href="mailto:contact@cescau-souffle-nouveau.fr">contact@cescau-souffle-nouveau.fr</a>
+        </p>
+        <p class="footer-bottom">© 2026 Cescau, un souffle nouveau. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/audio-player.js"></script>
+</body>
+</html>
